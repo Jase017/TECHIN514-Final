@@ -5,7 +5,7 @@
 //   Good Performance: only the first pin has interrupt capability
 //   Low Performance:  neither pin has interrupt capability
 Encoder myEnc(7, 8);
-int fsrPin = A0;     // A0 接口
+int fsrPin = A0;     
 int fsrReading;
 int ledPin = A5;
 bool hasPrintedStart = false; // Flag to check if "Start" has been printed
