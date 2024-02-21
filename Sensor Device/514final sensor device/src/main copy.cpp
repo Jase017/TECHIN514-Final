@@ -1,6 +1,5 @@
 #include <Encoder.h>
 #include <Arduino.h>
-// Change these two numbers to the pins connected to your encoder.
 //   Best Performance: both pins have interrupt capability
 //   Good Performance: only the first pin has interrupt capability
 //   Low Performance:  neither pin has interrupt capability
